@@ -1,0 +1,18 @@
+# WRKY vs NB-ARC Classifier in Tomato
+
+This repository contains the Python workflow for classifying WRKY and NB-ARC gene families in *Solanum lycopersicum* using Random Forest machine learning.
+
+## Files Included
+- `feature_extraction.py`: Script for amino acid feature extraction
+- `model_training.py`: Random Forest training and evaluation
+- `wrky_features.csv` / `nbarc_features.csv`: Sample outputs
+
+## Requirements
+- Python 3.8+
+- Biopython
+- scikit-learn
+- pandas, matplotlib, seaborn
+
+## Citation
+This code supports the manuscript: “Domain-level Classification of WRKY and NB-ARC Genes in Tomato using Machine Learning”
+
